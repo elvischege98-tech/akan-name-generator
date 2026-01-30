@@ -1,0 +1,9 @@
+.Grid{
+    display: grid;
+    grid-template-columns: 250px 5fr;
+    gap: 15px;
+    align-items: center;
+    max-width: 400px;
+    padding: 100px 200px 200px 200px;
+}
+

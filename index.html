@@ -7,11 +7,52 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <div class="Description">
+    <div class="P">
         <h1>The Akan-Name-Generator</h1>
         <p>Akan names originate from the land of Ghanaians.In ancient history 
         this names was given to children according to the days of the week they were born.
-        This helps the Ghanians to preserve their culture</p>
+        This helps the Ghanians to preserve their culture.</p>
     </div>
+
+    <section>
+
+        <form class="Grid">
+            
+            <div class="Form ">
+            <label for="Day of Birth">Day of Birth</label>
+            <input type="Number" id="Day of Birth" name="Day of Birth" placeholder="Day of Birth" required>
+
+            </div>
+
+            <div class="Form">
+                <label for="Month born">Month Born</label>
+            <select name="Month born" id="Month born">
+                <option value="january">January</option>
+                <option value="february">February</option>
+                <option value="march">March</option>
+                <option value="april">April</option>
+                <option value="may">May</option>
+                <option value="june">June</option>
+                <option value="july">July</option>
+                <option value="august">August</option>
+                <option value="september">September</option>
+                <option value="october">October</option>
+                <option value="november">November</option>
+                <option value="december">December</option>
+            </select>
+            </div>
+            
+            <div class="Form">
+                <label for="Gender">Gender</label>
+            <select name="Gender" id="Gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Rather not say">Rather not say</option>
+            </select>
+            </div>
+            <button type="Submit">Submit</button>
+ 
+        </form>
+    </section>
 </body>
 </html>
