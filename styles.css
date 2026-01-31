@@ -4,6 +4,43 @@
     gap: 15px;
     align-items: center;
     max-width: 400px;
-    padding: 100px 200px 200px 200px;
+}
+.Form{
+    text-align: center;
+    padding: 20px;
+    color: rgb(72, 3, 3);
+}
+.All form{
+    padding: 50px;
+    border: solid black 2px;
+    margin: 100px 200px;
+    width: 50%;
+    height: 150px;
+    background-color: rgb(161, 193, 221);
+    margin: 100px auto;
+}
+h1{
+    text-align: center;
+    font-style: italic;
+    color: rgb(170, 223, 223);
+}
+p{
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.5em;
+}
+h2{
+    color:rgb(170, 88, 88);
+    font-style: italic;
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+}
+body{
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20201119/pngtree-korean-new-year-texture-traditional-background-image_472987.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
 }
 
