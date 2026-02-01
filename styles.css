@@ -16,8 +16,9 @@
     margin: 100px 200px;
     width: 50%;
     height: 150px;
-    background-color: rgb(161, 193, 221);
+    background-color: rgb(151, 144, 144);
     margin: 100px auto;
+    box-shadow: 0px 5px 5px 5px rgb(85, 75, 75);
 }
 h1{
     text-align: center;
@@ -44,21 +45,22 @@ body{
     margin: 0;
 }
  
-table {
-      border-collapse: collapse;
-      width: 50%;
-      
+table{
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 10px 15px rgb(40, 31, 31);
 }
-th,td {
-      border: 1px solid black;
-      padding: 8px;
-      text-align: left;
-      color: rgb(222, 54, 54);
-    }
-th {
-      background-color: #f2f2f2;
-    }
-     .Result{
-        text-align: center;
-     }
-
+th,td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+    color: rgb(59, 5, 5);
+}
+th{
+    background-color: rgb(229, 238, 210);
+}
+ .Result{
+    text-align: center;
+ }
