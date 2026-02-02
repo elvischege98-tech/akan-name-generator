@@ -21,14 +21,14 @@
         <form>
             
             <div class="Form ">
-            <label for="Day of Birth">Day of Birth</label>
-            <input type="Number" id="Day of Birth" name="Day of Birth" placeholder="Day of Birth" required>
+            <label for="Day">Day of Birth</label>
+            <input type="Number" id="Day" name="Day" placeholder="Day of Birth" required>
 
             </div>
 
             <div class="Form">
-                <label for="Month born">Month Born</label>
-            <select name="Month born" id="Month born">
+                <label for="Month">Month Born</label>
+            <select name="Month" id="Month">
                 <option value="january">January</option>
                 <option value="february">February</option>
                 <option value="march">March</option>
@@ -52,12 +52,11 @@
             <div class="Form">
                 <label for="Gender">Gender</label>
             <select name="Gender" id="Gender">
-                <option value="Male">Male</option>
-                <option value="Female">Female</option>
-                <option value="Rather not say">Rather not say</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="rather not say">Rather not say</option>
             </select>
-             <button onclick="generateAkanName">Submit</button>
-            </div>
+            <button onclick="showAkanName" id="Result">Submit</button>
  
         </form>
     </section>
@@ -109,6 +108,7 @@
 <div id="Result" class="Result">
     <button onclick="showAkanName()">Your Akan Name</button>
 </div>
+<script src="./script.js"></script>
 </body>
 
 </html>
