@@ -38,9 +38,9 @@ return;
   const K = y % 100;
   const J = Math.floor(y / 100);
 
-  const dayOfWeek = (day + Math.floor((13 * (m + 1)) / 5) + K + Math.floor(K / 4) + Math.floor(J / 4) + 5 * J) % 7;
+  const dayOfWeek = (day + Math.floor((13 * (m + 1)) / 5) + K + Math.floor(K / 4) + Math.floor(J / 4) +5 * J) %7;
 
-  const index = dayOfWeek;
+  const index = dayOfWeek
 
   const akanName = gender === "male" ? maleNames[index] : femaleNames[index];
 
